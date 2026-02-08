@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "ru.mgcveqbj.pearlnavigator.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MinecraftClientMixin",
+    "ClientPlayerEntityMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

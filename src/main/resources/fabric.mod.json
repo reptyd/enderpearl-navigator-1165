@@ -1,0 +1,25 @@
+﻿{
+    "schemaVersion":  1,
+    "id":  "pearlnavigator1165",
+    "version":  "${version}",
+    "name":  "Ender Pearl Navigator 1.16.5",
+    "description":  "Client-only ender pearl aim assist for 1.16.5.",
+    "authors":  [
+                    "Tuma",
+                    "Tymamatyty"
+                ],
+    "environment":  "client",
+    "entrypoints":  {
+                        "client":  [
+                                       "ru.mgcveqbj.pearlnavigator.PearlNavigatorClient"
+                                   ]
+                    },
+    "mixins":  [
+                   "pearlnavigator.mixins.json"
+               ],
+    "depends":  {
+                    "fabricloader":  "\u003e=0.14.0",
+                    "minecraft":  "1.16.5",
+                    "fabric":  "*"
+                }
+}
